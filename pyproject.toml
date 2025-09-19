@@ -1,6 +1,6 @@
 [project]
-name = "defult-project"
-version = "0.1.0"
+name = "default-project"
+version = "0.1.1"
 description = "This is a template repository"
 authors = [
     {name = "zhangyupeng",email = "yupengzhang@sjtu.edu.cn"}
