@@ -8,17 +8,21 @@
 
 ```
 defult-project/
-├── docs/              # 文档目录
-├── scripts/           # 脚本目录
+├── examples/          # 示例代码
 ├── src/
-│   └── my_project/    # 主要代码
-│       ├── api/       # API 相关
-│       ├── core/      # 核心功能
-│       ├── models/    # 数据模型
-│       ├── utils/     # 工具函数
-│       └── main.py    # 入口文件
+│   └── default_project/    # 主要代码
+│       ├── api/            # API 相关
+│       ├── core/           # 核心功能
+│       ├── environment/    # 环境配置
+│       ├── logs/           # 日志目录
+│       ├── models/         # 数据模型
+│       ├── utils/          # 工具函数
+│       └── main.py         # 入口文件
+├── tasks/             # 任务脚本
 ├── tests/             # 测试代码
+├── trash/             # 临时文件
 ├── pyproject.toml     # 项目配置
+├── poetry.toml        # Poetry 本地配置
 └── poetry.lock        # 依赖锁定文件
 ```
 
